@@ -1,0 +1,559 @@
+/*=====================*/
+/*BASIC SETUP*/
+/***** ****** ******** */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    text-rendering: optimizeLegibility;
+}
+contact,
+testimonial,
+protfolio,
+skill,
+team,
+header,
+services {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.heading h3 {
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.inner_title h3,
+.innter_title h3 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 6rem 0rem 3rem 0rem;
+}
+
+.inner_title_margin h3 {
+    margin: 0;
+    margin: 2rem 0rem 0rem 0rem;
+}
+
+.heading p {
+    font-size: 1.8rem;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 8rem;
+}
+
+.full_wrapper {
+    width: 100%;
+}
+
+.wrapper {
+    width: 117rem;
+    margin: auto;
+}
+
+.clr {
+    clear: both;
+}
+
+/*=====================*/
+/*HEADER SECTION*/
+/***** ****** ******** */
+
+header {
+    background-image: url(images/Banner_images.jpg);
+
+}
+
+.overlay_img_head {
+    background-color: rgba(135, 80, 156, .85);
+}
+
+.navbar {
+    width: 100%;
+    position: static;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+    margin-top: 5.5rem;
+}
+
+.menubar {
+    width: 70%;
+    float: left;
+    margin-top: 6rem;
+}
+
+.menubar ul {
+    float: right;
+}
+
+.menubar ul li {
+    float: left;
+    margin-right: 4rem;
+}
+
+.menubar ul li:last-child {
+    margin-right: 0rem;
+}
+
+.menubar ul li a:link,
+.menubar ul li a:visited {
+    background-color: rgba(100, 58, 121, 0);
+    text-align: center;
+    border-radius: .3rem;
+    display: inline-block;
+    padding: 1rem 1.8rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.menubar ul li:hover a,
+.active {
+    background-color: rgba(100, 58, 121);
+    border-radius: .3rem;
+}
+
+.banner_text {
+    text-align: center;
+    padding: 14rem 0rem;
+}
+
+.banner_text h1 {
+    font-size: 4.2rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 6.5rem;
+}
+
+.btn,
+.banner_text a {
+    width: 29.5rem;
+    height: 7rem;
+    background-color: #eb7d4b;
+    color: #87509c;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-weight: 600;
+    display: inline-block;
+    line-height: 7rem;
+    border-radius: 0.3rem;
+    -webkit-box-shadow: 0rem 1.2rem 0.3rem -0.5rem rgba(0, 0, 0, 0.40);
+    -moz-box-shadow: 0rem 1.2rem 0.3rem -0.5rem rgba(0, 0, 0, 0.40);
+    box-shadow: 0rem 1.2rem 0.3rem -0.5rem rgba(0, 0, 0, 0.40);
+
+}
+
+/*=====================*/
+/*SERVICES SECTION*/
+/***** ****** ******** */
+services {
+    background-image: url(images/meet_image.jpg);
+    color: #fff;
+}
+.cont_img_head,
+.testmonl_img_head,
+.prott_img_head,
+.skill_img_head,
+.team_img_head,
+.service_img_head {
+    padding: 15.1rem 0rem;
+    display: block;
+}
+
+.service_head {
+    text-align: center;
+}
+
+.service_bottom {
+    text-align: center;
+}
+
+.service_img_head {
+    background-color: rgba(23, 194, 164, .8);
+}
+.con_head h3::after,
+.testimonl_head h3::after,
+.protfolio_inner h3::after,
+.skill_top h3::after,
+.team_head h3::after,
+.service_head h3::after {
+    width: 8.5rem;
+    height: .4rem;
+    display: block;
+    background-color: rgba(0, 0, 0, .30);
+    content: '';
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.innter_title p {
+    font-size: 1.6rem;
+    font-weight: 300;
+    padding: 0rem 4rem;
+}
+
+.
+
+/*=====================*/
+/*TEAM SECTION*/
+/***** ****** ******** */
+team {
+    background-image: url(images/skill_image.jpg);
+    display: block;
+
+}
+
+.team_img_head {
+    background-color: rgba(231, 241, 248, .9);
+}
+
+.team_in {
+    text-align: center;
+}
+
+.team_head p {
+    width: 55%;
+}
+
+.circle_team {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+}
+
+.cir_one,
+.cir_three,
+.cir_two,
+.cir_four {
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+.cir_four {
+    background-image: url(images/women1.png);
+}
+
+.cir_two {
+    background-image: url(images/women2.png);
+}
+
+.cir_one {
+    background-image: url(images/man_png.png);
+}
+
+.cir_three {
+    background-image: url(images/man2.png);
+}
+
+.team_n h3 {
+    margin: 0rem;
+    margin-top: 4rem;
+}
+
+.team_n {
+    text-align: center;
+    display: block;
+}
+
+.team_n h4 {
+    color: #30bae7;
+    margin: .1rem 0rem 3rem 0rem;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.icon li {
+    float: left;
+    line-height: 3rem;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    margin-top: 3rem;
+    background-color: #87509c;
+    margin-right: 1.2rem;
+    color: #fff;
+    transition: all .5s;
+
+}
+
+.icon li:hover {
+    transform: rotate(360deg);
+    background-color: #181818
+}
+
+.icon li a {
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.icon li:last-child {
+    margin-right: 0;
+}
+
+.icon {
+    margin: auto;
+    display: inline-block;
+
+}
+
+/*=====================*/
+/*SKILL SECTION*/
+/***** ****** ******** */
+.skill_inner {
+    text-align: center;
+}
+
+skill {
+    background-image: url(images/protfolio.jpg);
+    display: block;
+    color: #fff;
+}
+
+svg.radial-progress circle {
+    stroke-width: 8;
+    height: 160;
+    width: 160;
+}
+
+.skill_img_head {
+    background-color: rgba(135, 80, 156, .85);
+}
+
+svg.web-design circle {
+    stroke: #30bae7;
+}
+
+svg.html-css circle {
+    stroke: #d74680;
+}
+
+svg.graphic-design circle {
+    stroke: #15c7a8;
+}
+
+svg.ui-ux circle {
+    stroke: #eb7d4b;
+}
+
+svg.radial-progress text {
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+
+.skill_img_head {
+    padding: padding: 14rem 0rem 12rem 0rem;
+
+}
+
+/*=====================*/
+/*PROTFOLIO SECTION*/
+/***** ****** ******** */
+
+.protfolio_inner {
+    text-align: center;
+}
+
+.protfoliotop p {
+    margin-bottom: 4rem;
+}
+
+protfolio {
+    background-image: url(images/service_image.jpg);
+    display: block;
+    color: #fff;
+}
+
+.prott_img_head {
+    background-color: rgba(23, 194, 164, .7);
+}
+
+.mar_left_prot {
+    margin-left: 0rem;
+}
+
+.btn_protfolio {
+    background-color: #d74680;
+
+}
+
+.btn_protfolio a {
+    color: #fff;
+}
+
+.prot_img {
+    margin-bottom: 6rem;
+}
+
+.protfoilobutton {
+    margin-bottom: 6rem;
+}
+
+.protfoilobutton button {
+    padding: 1.2rem 3.5rem;
+    background-color: rgba(0, 0, 0, .4);
+    border-radius: .3rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    border: 0;
+    margin-right: 2rem;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+
+.protfoilobutton button:last-child {
+    margin-right: 0rem;
+}
+
+.prot_img h4 {
+    margin-top: 1.8rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.prot_section .mixitup-control-active {
+    background-color: #fff;
+    color: #181818;
+    -webkit-box-shadow: inset 0rem .3rem .5rem 0rem rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0rem .3rem .5rem 0rem rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0rem .3rem .5rem 0rem rgba(0, 0, 0, 0.75);
+}
+
+/*=====================*/
+/*TESTIMONIAL SECTION*/
+/***** ****** ******** */
+.testimonl_head {
+    text-align: center;
+}
+
+testimonial {
+    background-image: url(images/big1.jpg);
+}
+
+.testmonl_img_head {
+    background-color: rgba(231, 241, 248, .7);
+}
+
+.img_div {
+    width: 25%;
+    display: inline-block;
+    float: left;
+    margin-top: -0.3rem;
+}
+
+.text_div {
+    width: 75%;
+    float: left;
+}
+
+.text_div p {
+    font-size: 2.1rem;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.testimonl_head p {
+    margin-bottom: 4rem;
+}
+
+.text_div h3 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+span.titl_cus {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.image_div {
+    margin-bottom: 80px;
+}
+
+.mar_left {
+    margin-left: 0rem;
+}
+
+/*=====================*/
+/*CONTACT SECTION*/
+/***** ****** ******** */
+contact {
+    background-image: url(images/big2.jpg);
+    display: block;
+    
+}
+
+.con_head {
+    text-align: center;
+    color: #fff;
+
+}
+.cont_img_head{
+    background-color: rgba(60, 84, 153, .8);
+}
+.con_head p{
+    width: 100%;
+}
+.form_part{
+    width:65%;
+    margin: auto;
+}
+.cont_in_01 input{
+    padding: 1.5rem;
+    width: 100%;
+    background-color: #273a71;
+    border: .1rem solid #273a71;
+    border-radius:.4rem;
+}
+.cont_in_02 textarea{
+    width: 100%;
+    padding: 1.5rem;
+    background-color: #273a71;
+    border: .1rem solid #273a71;
+    border-radius:.4rem;
+}
+
+.form_part form ::placeholder{
+    color: #fff;
+    font-size: 1.8rem;
+    margin-left: 2.5rem;
+    opacity: 1;
+}
+.cont_in_02{
+    text-align: center;
+}
+.cont_in_02 .con_btn{
+    background-color: #30bae7;
+    border:0;
+    border-bottom: .3rem solid #299ec5;
+    box-shadow: none;
+    margin-top: 6rem;
+    cursor: pointer;
+    color:#fff;
+}
